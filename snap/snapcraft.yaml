@@ -6,7 +6,6 @@ description: |
   This command works like AWK in one liners. It enables you to use Python
   modules on CLI.
 
-
 grade: stable
 confinement: strict
 
@@ -21,3 +20,6 @@ parts:
     source-tag: master
     source-depth: 1
 
+#environment:
+#  LANG: C.UTF-8
+#  LC_ALL: C.UTF-8
